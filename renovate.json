@@ -13,6 +13,7 @@
 	"baseBranches": [
 		"develop"
 	],
+	"recreateClosed": true,
 	"packageRules": [
 		{
 			"groupName": "jetbrains-kotlin",
