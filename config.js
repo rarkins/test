@@ -5,12 +5,5 @@ module.exports = {
     logFileLevel: 'debug',
     logLevel: 'debug',
     onboarding: true,
-    onboardingConfig: {
-        extends: ['@bpm-renovate:base-backend-kotlin']
-    },
-    repositories: ['Monax111/test'],
-	encrypted: {
-        npmToken: "***"
-    },
-    npmrc: "registry=https://nexus-new.tcsbank.ru/repository/npm-all/\nstrict-ssl=false\nca=''\n//nexus-new.tcsbank.ru/repository/npm-sme/:_authToken=${NPM_TOKEN}"
+    repositories: ['Monax111/test']
 };
