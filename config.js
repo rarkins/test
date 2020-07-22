@@ -8,7 +8,7 @@ module.exports = {
     logLevel: 'debug',
     onboarding: true,
     onboardingConfig: {
-        extends: ['@bpm-renovate:base-backend-kotlin']
+        extends: ['config:base']
     },
     repositories: ['Monax111/test']
 };
