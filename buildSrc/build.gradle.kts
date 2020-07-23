@@ -1,6 +1,5 @@
 plugins {
-    //id("org.springframework.boot") version "2.2.4.RELEASE" apply false
-    id("com.gorylenko.gradle-git-properties") version "1.5.2" apply false
+    id("com.gorylenko.gradle-git-properties") version "1.5.2"
     kotlin("jvm") version "1.3.60"
 }
 
